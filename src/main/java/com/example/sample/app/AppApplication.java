@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class AppApplication {
 
-	public static void main(String[] args) {
-		System.out.println("doReady");
-		SpringApplication.run(AppApplication.class, args);
-	}
+  public static void main(String[] args) {
+    System.out.println("doReady");
+    SpringApplication.run(AppApplication.class, args);
+  }
 
 }
